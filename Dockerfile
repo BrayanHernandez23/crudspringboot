@@ -8,7 +8,7 @@ WORKDIR crudspringboot
 COPY target/crud-0.0.1-SNAPSHOT.jar ./
 
 # Expone el puerto en el que se ejecuta la aplicación
-EXPOSE 3500
+EXPOSE 3000
 
 # Define el comando que se ejecuta al iniciar el contenedor
 CMD ["java", "-jar", "crud-0.0.1-SNAPSHOT.jar"]
